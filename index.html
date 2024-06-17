@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário 2</title>
+    <style>
+form{
+    background-color: rgb(187, 168, 168);
+    width: 405px;
+    height: 450px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+label,textarea,select{
+    display: block;
+    p{
+        border-color: blue;
+    }
+}
+</style>
+    
+    
+</head>
+<body>
+    <h2 style="background-color: chocolate;">sistema de gestão acadêmica</h2>
+    <form action="">
+    <h3>manunteção de usuário do sistema interno</h3>
+    <form>
+        <label for="login">login</label>
+        <input type="text" id=" login">
+
+        <label for="senha ">senha </label>
+        <input type="password" id="senha">
+        <label for="status">status</label>
+        <select id="status">
+            <option value="ativo">ativo</option>
+                <option value="parado">parado</option>
+            
+        </select>
+        <label>tipo</label> 
+        <input type="radio" name="tipo" value= "tecnico">tecnico
+        <input type="radio" name="tipo" value="professor">professor
+        <input type="radio" name="tipo" value="aluno">aluno
+        <label for="observação ">observação:</label>
+        <textarea id="observação " cols="20" rows="6"></textarea>
+        <label> modulos:</label>
+        <input type="checkbox">compras
+        <input type="checkbox">biblioteca
+        <input type="checkbox"ckeked>acadêmico
+        <br><br>
+        <input type="date">
+    </form>
+    
+
+    
+    
+    
+ 
+</body>
+</html>
